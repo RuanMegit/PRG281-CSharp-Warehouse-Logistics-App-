@@ -1,0 +1,7 @@
+C:\Users\ruanm\OneDrive\Desktop\John's-Warehouse-Service-App\John's-Warehouse-Service-App\obj\Debug\John's-Warehouse-Service-App.csproj.AssemblyReference.cache
+C:\Users\ruanm\OneDrive\Desktop\John's-Warehouse-Service-App\John's-Warehouse-Service-App\obj\Debug\John's-Warehouse-Service-App.csproj.CoreCompileInputs.cache
+C:\Users\ruanm\OneDrive\Desktop\John's-Warehouse-Service-App\John's-Warehouse-Service-App\bin\Debug\John's-Warehouse-Service-App.exe.config
+C:\Users\ruanm\OneDrive\Desktop\John's-Warehouse-Service-App\John's-Warehouse-Service-App\bin\Debug\John's-Warehouse-Service-App.exe
+C:\Users\ruanm\OneDrive\Desktop\John's-Warehouse-Service-App\John's-Warehouse-Service-App\bin\Debug\John's-Warehouse-Service-App.pdb
+C:\Users\ruanm\OneDrive\Desktop\John's-Warehouse-Service-App\John's-Warehouse-Service-App\obj\Debug\John's-Warehouse-Service-App.exe
+C:\Users\ruanm\OneDrive\Desktop\John's-Warehouse-Service-App\John's-Warehouse-Service-App\obj\Debug\John's-Warehouse-Service-App.pdb
