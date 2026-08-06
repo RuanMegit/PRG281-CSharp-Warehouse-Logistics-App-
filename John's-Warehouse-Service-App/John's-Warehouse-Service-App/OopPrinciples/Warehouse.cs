@@ -96,6 +96,48 @@ namespace John_s_Warehouse_Service_App.OopPrinciples
                 CurrentCapacity1 -= item.Quantity1;
             }
         }
+        public Employee FindEmployee(int id)
+        {
+            foreach (Employee employee in Employees)
+            {
+                if (employee.Id1 == id)
+                    return employee;
+            }
+
+            return null;
+        }
+
+        public InventoryItem FindInventoryItem(int id)
+        {
+            foreach (InventoryItem item in InventoryItems)
+            {
+                if (item.ItemId1 == id)
+                    return item;
+            }
+
+            return null;
+        }
+        public Vehicle FindVehicle(int id)
+        {
+            foreach (Vehicle vehicle in Vehicles)
+            {
+                if (vehicle.TrId1 == id)
+                    return vehicle;
+            }
+
+            return null;
+        }
+        public Shipment FindShipment(int id)
+        {
+            foreach (Shipment shipment in Shipments)
+            {
+                if (shipment.ShipmentId1 == id)
+                    return shipment;
+            }
+
+            return null;
+        }
+
         // Display Information
         public void DisplayWarehouseInformation()
         {

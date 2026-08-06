@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Menu\InventoryMenu.cs" />
+    <Compile Include="Menu\EmployeeMenu.cs" />
+    <Compile Include="Exceptions\InputException.cs" />
+    <Compile Include="Menu\MenuManager.cs" />
     <Compile Include="OopPrinciples\IncomingShipment.cs" />
     <Compile Include="OopPrinciples\Customer.cs" />
     <Compile Include="OopPrinciples\Employee.cs" />
@@ -55,6 +59,8 @@
     <Compile Include="OopPrinciples\Vehicle.cs" />
     <Compile Include="OopPrinciples\Warehouse.cs" />
     <Compile Include="OopPrinciples\Truck.cs" />
+    <Compile Include="Menu\ShipmentMenu.cs" />
+    <Compile Include="Menu\VehicleMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -64,7 +70,6 @@
     <Folder Include="BonusFeatures\" />
     <Folder Include="EventsDelegates\" />
     <Folder Include="Interfaces\" />
-    <Folder Include="Menu\" />
     <Folder Include="ThreadingMultithreading\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

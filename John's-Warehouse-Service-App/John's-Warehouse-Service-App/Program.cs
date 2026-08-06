@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 // linking the new namespaces/folders to program.
 using John_s_Warehouse_Service_App.OopPrinciples;
+using John_s_Warehouse_Service_App.Menu;
+using John_s_Warehouse_Service_App.Exceptions;
+
 
 namespace John_s_Warehouse_Service_App
 {
@@ -40,6 +43,7 @@ namespace John_s_Warehouse_Service_App
 
             //Warehouse class
             Warehouse warehouse1 = new Warehouse(1, "WareHouseOne", "Pretoria", 0, 100);
+
             warehouse1.AddEmployee(employee1);
 
             warehouse1.AddVehicle(truck1);
@@ -52,6 +56,7 @@ namespace John_s_Warehouse_Service_App
 
             warehouse1.DisplayWarehouseInformation();
 
+            MenuManager.MainMenu(warehouse1);
         }
     }
 }
